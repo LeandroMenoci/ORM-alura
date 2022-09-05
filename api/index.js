@@ -12,7 +12,13 @@ app.listen(port, () => {
 
 module.exports = app
 
-///npx sequelize-cli model:create --name Pessoas --attributes nnome:string,ativo:boolean,email:string,role:string
+///npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
+
+//npx sequelize-cli model:create --name Niveis --attributes descr_nivel:string
+
+//npx sequelize-cli model:create --name Turmas --attributes data_inicio:dateonly
+
+//npx sequelize-cli model:create --name Matriculas --attributes status:string
 
 //npx sequelize-cli db:migrate
 
@@ -20,6 +26,8 @@ module.exports = app
 
 //npx sequelize-cli db:seed:all
 
+//npx sequelize-cli db:migrate
+
 //mysql -u root -p  
 
-//5/02
+//5/07 aula
