@@ -28,6 +28,8 @@ module.exports = app
 
 //npx sequelize-cli db:migrate
 
-//mysql -u root -p  
+//mysql -u root -p 
+
+// npm outdated
 
 //5/07 aula
